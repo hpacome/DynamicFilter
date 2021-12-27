@@ -7,6 +7,7 @@ namespace DynamicFilter.Models
     public class Contrainte
     {
         public string MatchMode { get; set; }
+
         public string Value { get; set; }
     }
 }

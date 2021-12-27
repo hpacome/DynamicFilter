@@ -9,7 +9,9 @@ namespace DynamicFilter.Models
     public class FieldContrainte
     {
         public string FieldName { get; set; }
+
         public string Operator { get; set; }
+
         public List<Contrainte> Contraintes { get; set; }
     }
 }
